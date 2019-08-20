@@ -1,0 +1,60 @@
+{
+  "name": "baiyi-mobile.gaodun.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config build/webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.gaodun.com:22122/mona.song/baiyi-mobile.gaodun.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-redux": "^7.1.1",
+    "@types/react-router-dom": "^4.3.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "cache-loader": "^4.1.0",
+    "css-loader": "1.0.1",
+    "css-modules-typescript-loader": "^2.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "python": "^0.0.4",
+    "sass-loader": "^7.2.0",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^1.0.0",
+    "ts-import-plugin": "^1.6.1",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "typescript": "^3.5.3",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "@types/redux-promise": "^0.5.28",
+    "antd": "^3.21.4",
+    "antd-mobile": "^2.3.1",
+    "react": "^16.9.0",
+    "react-concise-router": "^0.2.1",
+    "react-dom": "^16.9.0",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0"
+  }
+}
